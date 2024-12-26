@@ -1,0 +1,145 @@
+<!--
+    Website Template
+    
+    Author: Nicholas S. Blits
+    Version: 1.0.2
+
+    Current file: index.html
+
+    General Notice: Program uses practices that align with that of the most recent standard for HTML code as of the 18th of December, 2024.
+
+    Copyright Notice: All code that is not automatically created by an IDE (such as Visual Studio 2022) has been created by Nicholas S. Blits as of this version. Any unwarranted plagiarism of this code (the code that has been manually created) is strictly prohibited. This also does not apply to code that is necessary for standard website development, such as having <!DOCTYPE html> in an html file. Legal action may be taken as appropriate for acts of plagiarism.
+-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <!--Initializing the defaults for the search engine side of the website-->
+        <meta charset="UTF-8">
+        <title>About Hello World!</title>
+
+        <!-- Hooking up a Stylesheet, Favicon, and JavaScript file to the website -->
+        <link rel="stylesheet" href="styles.css">
+        <script src="scripts.js"></script>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    </head>
+    <!-- 
+        The normalized opening for a website per the rules of HTML5 with the tab's title set to the String "Hello World!" 
+    -->
+        
+    <!-- 
+        The referenced CSS and JavaScript files above are included in the zip for the project attached to this file.
+        You may edit the actual href element as it relates to where the files "styles.css" and "scripts.js" (file names exclude quotation marks) are stored on your computer as needed.
+
+        In the project's zip, a favicon for this website is also included. The path of the href element for it might also need to be edited as appropriate. This favicon is royalty free and available to download the following link: https://pixabay.com/vectors/programming-internet-website-html-3173456/ 
+    -->
+
+    <body>
+        
+        <!-- A title introducing the website's content -->
+
+        <header id="title">
+            Diving Into the Mind of a Programmer
+        </header>
+
+        <!-- 
+            A brief explanation of why outputting "Hello World!" is a program that most developers learn to create. 
+        -->
+        <p id="overview">
+            Hello World was one of the first things ever programmed. Because of this, many programmers first learn how to output the sentence "Hello World!" to their screen when beginning to learn a new programming language. The exact method of doing so varies between languages, and an example of this can be found at the bottom of this page.
+        </p>
+
+        <!-- 
+            Adding some space between the introductory paragraph and the notes about the example code found on this website.
+        -->
+
+        <br>
+
+        <!-- A message prefacing that code snippets have been organized by the coding language in question. -->
+        <p id="introduction">A few examples of the code used to print Hello World! to a user's screen are provided below, alongside the language that each snippet is written in.</p>
+
+        <!-- 
+            A paragraph informing the viewer of this site that only the exact code that prints out the phrase "Hello World!" can be found on this website, not what would be found on a full file for that coding language. 
+
+            The user is also told how the cases where "Hello World!" can be printed out multiple ways is handled on this site.
+        -->
+        <p id="disclaimer">
+            Notes: The code snippets only show the actual code that executes the command to print out the phrase "Hello World!" to the user, not any code required to make that command work without errors. Ex. A Java "Hello World!" program uses a main method, which is not included on this page. <br> In the cases where there are multiple correct answers, the word or will be placed between the two ways of printing "Hello World!". The word or is NOT part of the code to print the phrase "Hello World!" to the screen of the user.
+        </p>
+
+        <!-- 
+            A list of examples of the "Hello World!" program, which contain nested lists to better oragnize the languages and small sections of code.
+            
+            There are detailed lists in the list items of the unordered list of examples.
+        -->
+        <ul>
+            <!-- The first example of "Hello World!" is written in Python -->
+            <li class="examples">
+                <dl>
+                    <dt>
+                        Coding Language: Python
+                    </dt>
+
+                    <dd>
+                        print("Hello World!")
+                    </dd>
+                </dl>
+            </li>
+            <!-- 
+                The second example of the "Hello World!" program is written in Java, accounting for both printing out the phrase and going to a new line, and printing out the phrase and staying on the same line.
+            -->
+            <li class="examples">
+                <dl>
+                    <dt>
+                        Coding Language: Java
+                    </dt>
+
+                    <dd>
+                        System.out.println("Hello World!"); or System.out.print("Hello World!");
+                    </dd>
+                </dl>
+            </li>
+
+            <!-- 
+                The third example of the "Hello World!" program is written in C$, accounting for both printing out the phrase and going to a new line, and printing out the phrase and staying on the same line.
+            -->
+            <li class="examples">
+                <dl>
+                    <dt>
+                        Coding Language: C#
+                    </dt>
+
+                    <dd>
+                        Console.WriteLine("Hello World!"); or Console.Write("Hello World!");
+                    </dd>
+                </dl>
+            </li>
+
+        </ul>
+
+        <!-- 
+            A button a viewer of this site can click to add the phrase "Hello World!"" (without parentheses) to the website in the paragraph element with the id "welcomeMessage"
+         -->
+        <button id="messageButton">
+
+            <!-- The text of the button is set to the phrase "Say Hello!". When this button is clicked, the welcomeUser() function found in this project's file "scripts.js" in order to add the phrase "Hello World!" to the website.-->
+            Say Hello!
+
+        </button>
+
+        <!-- A blank paragraph used to add the phrase "Hello World!" to the website.-->
+        <p id="welcomeMessage"></p>
+
+        <!-- A footer crediting me (Nicholas S. Blits) as the developer behind this website.-->
+        <footer>
+            &copy; Nicholas S. Blits 2024. All rights reserved.
+        </footer>
+
+    <!-- The end of the body of this file has been reached.-->
+    </body>
+<!-- End of index.html -->
+</html>

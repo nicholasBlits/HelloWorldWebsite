@@ -1,0 +1,64 @@
+/*
+    A basic theme for the file "index.html" found in this project.
+    Author: Nicholas S. Blits
+
+    This file may be edited to better fit the theme preferred by the developer using this file.
+    Items in the file "index.html" are synced with this stylesheet.
+
+    Copyright Notice: This file was created by the author or authors as listed above. Any other person claiming to having made contributions to this file is not voicing accurate information. Any claims of this nature or other unwarranted acts of plagiarism as it relates to this file will result in legal as is deemed necessary by the legitimate author or authors of this file.
+
+    The phrase "author or authors" only refers to Nicholas S. Blits as of 12/26/2024.
+*/
+
+body {
+    color: gray;
+    background-color: black;
+    font-family: monospace;
+}
+
+#title 
+{
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    font-size: 44px;
+}
+
+#overview 
+{
+    color: red;
+}
+
+#introduction 
+{
+    color: blue;
+}
+
+#disclaimer
+{
+    background-color: yellow;
+    color: black;
+    font-weight: bolder;
+}
+
+.examples
+{
+    color: green;
+}
+
+#messageButton 
+{
+    background-color: green;
+    color: white;
+    border-color: green;
+    position: relative;
+}
+
+footer {
+    color: black;
+    background-color: lightgrey;
+    padding: 20px;
+    text-align: center;
+    align-content: center;
+}
+/*The end of styles.css*/
